@@ -8,6 +8,7 @@ export const GameMap = {
   TRAIN: 'TRAIN',
   ANCIENT: 'ANCIENT',
   ANUBIS: 'ANUBIS',
+  CACHE: 'CACHE',
 } as const;
 
 export type GameMap = (typeof GameMap)[keyof typeof GameMap];

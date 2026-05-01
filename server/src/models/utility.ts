@@ -41,7 +41,7 @@ const utilitySchema = new Schema<Utility>({
 
   map: {
     type: String,
-    enum: ['DUST_2', 'MIRAGE', 'OVERPASS', 'NUKE', 'VERTIGO', 'INFERNO', 'TRAIN', 'ANCIENT', 'ANUBIS'],
+    enum: ['DUST_2', 'MIRAGE', 'OVERPASS', 'NUKE', 'VERTIGO', 'INFERNO', 'TRAIN', 'ANCIENT', 'ANUBIS', 'CACHE'],
     required: true,
   },
 
