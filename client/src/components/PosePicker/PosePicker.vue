@@ -16,6 +16,7 @@
       :content="readonly ? 'Movement' : 'Toggle Movement'"
     >
       <svg-icon name="pose_run" v-if="movement === UtilityMovement.RUN" class="pose-picker__image" />
+      <svg-icon name="pose_double_u" v-if="movement === UtilityMovement.DOUBLEU" class="pose-picker__image" />
       <svg-icon name="pose_walk" v-if="movement === UtilityMovement.WALK" class="pose-picker__image" />
       <svg-icon name="pose_still" v-if="movement === UtilityMovement.STILL" class="pose-picker__image" />
     </div>
