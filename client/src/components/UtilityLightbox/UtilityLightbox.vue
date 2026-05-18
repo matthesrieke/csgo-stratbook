@@ -7,6 +7,7 @@
         id="ytplayer"
         type="text/html"
         :src="getEmbedURL(currentMedia.src)"
+        referrerpolicy="strict-origin-when-cross-origin"
         frameborder="0"
       />
       <iframe
